@@ -138,6 +138,7 @@ let third = document.getElementById('third');
 let difference = document.getElementById('difference');
 let what = document.getElementById('what');
 let benefits = document.getElementById('benefits');
+what.style.color = "#249c26";
 
 document.getElementById('benefits').addEventListener('click', function() {
   second.style.display = "block";
