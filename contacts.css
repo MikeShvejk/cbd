@@ -1,0 +1,58 @@
+body {
+    background-image: url(images/contactsbackground.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+section h2 {
+    font-size: 55px;
+    letter-spacing: 20px;
+    color: #249c26;
+    margin-top: 100px;
+}
+
+.about-mentor {
+    margin-top: 300px;
+    text-align: right;
+    background-color: #ffffff;
+    padding: 30px;
+    animation: appear 1s;
+}
+
+.about-mentor p:first-child {
+    font-style: italic;
+    color: #249c26;
+} 
+
+@keyframes appear {
+        from {
+            opacity: 0;
+        }
+
+        25% {
+            opacity: 0.25;
+        }
+      
+        50% {
+            opacity: 0.5;
+        }
+
+        75% {
+            opacity: 0.75;
+        }
+    
+        to {
+            opacity: 1;
+        }
+}
+  
+  .appear {
+    -webkit-animation-name: appear;
+    animation-name: appear;
+}
